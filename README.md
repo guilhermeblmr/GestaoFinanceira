@@ -2,4 +2,20 @@
 
 ## Diagrama:
 
-<img src="https://lh3.googleusercontent.com/3-Rr0rJv6zfgTLqDGDewZ7EpKAjlRBP1qd68O_tJrSTaGYe-iSIkHynjGLQRgYK4BeH2BeFEowG35IncdqMPVw0S4tYGNx2m5YDBt8jPubvIdygd2Ze0CeJlj48v841eTNlD730lQnx6XT0GuMTNPpDa-LSzvWuEcilTtpHIEVGVjpEiOLk6mrFCEDiFOM_EjIH9Si-etRgvRXue3iSRoIL8cgZL2CzNo0A_rZICjjcRL48Y5QWh2nu7FKApOyIJK9J2TWfVoMcktxSSRNmUtuNCqDHG5zfy_aI0JIb60v-OJt6rbS93_RzVoQSpOqydHf0YjiomvTNc1J0qOPrntn-P8NOeTaDggOCauYDKnJgiblQgYpiefxugRArfcn9UstXWr2zhM4gbezjQ5RJVkL0NcSiIA8q4h4Lw4mmTJksxycxtmLrFgKJCrcUcwUHLapUlkw97G8_4-1T_6botd8cSVwbhnBKtLCs_CzcmORr_mwE7sJId6DW_HbZRmyuVpp-0DmBmAJJIphvfDt41u3wgp0S1jCo0SbiMdRZV-uUqeb0DwdFH8XDyaOkFr6DACB-UIK_nwe3Njyv3Wl8tElvmFOQPqTdjNZPjYGGW-8g8RUU2AnwldDHTeVX-d6-sEX9gDpubRnA2wr0E25jVpm18G_5oIZi5FThj2jTdG2SJNQimAQ16KWl-xabOJ8r24PU4Gnj7oewow-fpSnIB5jTCfICykk-nR2QKyjNX2FnoNsLvRZunBgMFaOU34wyL_fKQiCubv7n6LxNICfmhnuieko8ciYcD0vO3i-UdrvG8l_NHpO2WfmILKOGNiZ-SxUILZ5sXLNm8o348Bl8EraGS9dYvUS7GC5ccTwxdPK5BamZDimE0qEYKMagXQLUyNqcu1QoLMYzs2WN2fN-FjViYW416rpHgMPeP=w711-h288-s-no?authuser=0">
+
+<div align="center">
+
+``` Java
+__________________       __________________       _________________________________
+|      Gasto      |      |      Ganho      |      |           Relatorio            |
+|_________________|      |_________________|      |________________________________|
+| - tipo          |      | - tipo          |      |                                |
+| - data          |      | - data          |----->|                                |
+| - valor         |      | - valor         |      |                                |
+| - formaPagamento|      |                 |      |                                |
+|_________________|      |_________________|      | - gerarRelatorioDeGastos()     |
+         |                                        | - gerarRelatorioDeGanhos()     |
+         |                                        | - gerarRelatorioDeSaldoMensal()|
+         +--------------------------------------->|________________________________|
+```
+  </div>
